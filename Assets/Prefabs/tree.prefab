@@ -178,6 +178,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2edd2dac3bc95f94686ff05d88c6756d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 432350037122710964}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2edd2dac3bc95f94686ff05d88c6756d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8479546096730255458}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 2edd2dac3bc95f94686ff05d88c6756d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 936023165384898801}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 2edd2dac3bc95f94686ff05d88c6756d, type: 3}
 --- !u!4 &1430750782747801831 stripped
 Transform:
@@ -236,3 +242,65 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 3.2165527}
   serializedVersion: 2
   m_Radius: 4.02236
+--- !u!114 &8479546096730255458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2177198835335221378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 8354bb7f54fd84a44b42ab23143a1959, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 02448fc6-1209-49b3-9e00-28470301c112
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6777802393975144512}
+        m_TargetAssemblyTypeName: OutlineDetection, Assembly-CSharp
+        m_MethodName: OnInteract
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c12ddbdd-0280-49d3-aba3-d4c758a8a7bd
+    m_ActionName: Player/Interact[/Keyboard/e]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &936023165384898801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2177198835335221378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e8c2f4a8ef82e4abb33a23a74efbec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -58,7 +58,7 @@ public class EnvironmentManager : MonoBehaviour
     //Check whether a given position is valid (is there already a gameobject there?)
     private bool isValidPosition(Vector3Int pos)
     {
-        return Physics2D.OverlapPoint(new Vector3(pos.x, pos.y)) == null;
+        return (Physics2D.OverlapPoint(new Vector3(pos.x, pos.y)) == null) && Vector3.Distance(pos, new Vector3(0, 0, 0)) > 10f;
     }
 
 }
